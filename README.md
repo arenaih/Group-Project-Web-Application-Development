@@ -1,3 +1,5 @@
-# Group-Project-Web-Application-Development
- <img src="./logo IIUM.png" width="70%">
-# Group-Project-Web-Application-Development
+# <img src="./logo IIUM.png" width="70%">
+# INFO 3305 WEB APPLICATION DEVELOPMENT
+# PROJECT REPORT
+# SECTION 1 (SEM 2 2023/2024)
+# INSTRUCTOR: MOHD KHAIRUL AZMI BIN HASSAN
