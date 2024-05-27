@@ -60,5 +60,6 @@ The objective of this project is to:
 2. Recent reviews and average ratings displayed prominently for user reference.
 
 ## 5.0 Entity Relation Diagram
-# <img src="./erd.drawio.png" width="70%">
+### <img src="./erd.drawio.png" width="90%">
 ## 6.0 Sequence Diagram
+### <img src="Sequence Diagram (2).png" width="90%">
