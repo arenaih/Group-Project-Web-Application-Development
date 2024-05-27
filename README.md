@@ -58,4 +58,5 @@ The objective of this project is to:
 3. Moderation tools for managing discussions, reporting inappropriate content, and ensuring a positive community experience.
 
 ## 5.0 Entity Relation Diagram
+# <img src="./erd.drawio.png" width="70%">
 ## 6.0 Sequence Diagram
