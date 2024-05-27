@@ -29,7 +29,7 @@ The objective of this project is to:
 1. Featured restaurants carousel/slider showcasing images and promotions.
 2. Search bar with filters (location, cuisine, price range) for finding restaurants.
 3. Quick links to popular cuisines or locations for easy navigation.
-4. Featured forums related to dining.
+
 
 ### 4.2 Restaurant Listings Page
 1. List of restaurants based on search criteria with images and brief descriptions.
@@ -52,10 +52,7 @@ The objective of this project is to:
 1. Form for leaving reviews and ratings for food quality, service, ambiance, etc.
 2. Recent reviews and average ratings displayed prominently for user reference.
 
-### 4.6 Discussion and Chat Page
-1. Discussion forums or chat rooms for users to discuss restaurants, share tips, and ask questions.
-2. Real-time chat feature for instant messaging among users.
-3. Moderation tools for managing discussions, reporting inappropriate content, and ensuring a positive community experience.
+
 
 ## 5.0 Entity Relation Diagram
 # <img src="./erd.drawio.png" width="70%">
