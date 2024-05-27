@@ -25,5 +25,37 @@ The objective of this project is to:
 * Improve user communication by implementing real-time chat features.
 
 ### 4.0 Features and Functionalities
+4.1 Home Page
+   - Featured restaurants carousel/slider showcasing images and promotions.
+   - Search bar with filters (location, cuisine, price range) for finding restaurants.
+   - Quick links to popular cuisines or locations for easy navigation.
+   - Featured forums related to dining.
+
+4.2 Restaurant Listings Page
+   - List of restaurants based on search criteria with images and brief descriptions.
+   - Filters (location, cuisine, price range) for refining search results.
+
+4.3 Restaurant Detail Page
+   - Restaurant information (address, contact details, hours of operation).
+   - Reviews and ratings section with option to read/write reviews and rate different aspects.
+   - Photo gallery showcasing the restaurant's ambiance and dishes.
+   - Menu display (if available) with pricing information.
+   - Related restaurants or similar recommendations based on user preferences.
+
+4.4 Booking Page
+   - Search filters for finding restaurants based on location, cuisine, and availability.
+   - Calendar or date picker for selecting booking dates.
+   - Time slots for selecting reservation times.
+   - Confirmation page with booking details, options for cancellations, and payment (if required).
+
+4.5 Review and Rating Page
+   - Form for leaving reviews and ratings for food quality, service, ambiance, etc.
+   - Recent reviews and average ratings displayed prominently for user reference.
+
+4.6 Discussion and Chat Page
+   - Discussion forums or chat rooms for users to discuss restaurants, share tips, and ask questions.
+   - Real-time chat feature for instant messaging among users.
+   - Moderation tools for managing discussions, reporting inappropriate content, and ensuring a positive community experience.
+
 ### 5.0 Entity Relation Diagram
 ### 6.0 Sequence Diagram
