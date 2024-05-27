@@ -12,6 +12,7 @@
 | 4   | AHMAD AZAMUDDIN BIN MOHD ZAINUDDIN  | 2215501   |
 ### 1.0 Project Title
 ### 2.0 Introduction
+By developing a comprehensive online platform where users can find, book, review, recommend, discuss, and chat about restaurants, the DineConnect initiative seeks to redefine the dining experience. Foodies and restaurant owners have different needs, and Restaurant Hub combines essential elements to meet those needs while also improving user interaction and pleasure.
 ### 3.0 Objective
 ### 4.0 Features and Functionalities
 ### 5.0 Entity Relation Diagram
