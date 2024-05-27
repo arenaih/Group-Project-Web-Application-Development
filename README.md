@@ -10,13 +10,13 @@
 | 2   | MUHAMMAD ANAS REDZA BIN MATT ZAIDI  | 2128877   |
 | 3   | MUHAMMAD AZRI BIN BURHAN            | 2211585   |
 | 4   | AHMAD AZAMUDDIN BIN MOHD ZAINUDDIN  | 2215501   |
-### 1.0 Project Title
+## 1.0 Project Title
 DineConnect
 
-### 2.0 Introduction
+## 2.0 Introduction
 By developing a comprehensive online platform where users can find, book, review, recommend, discuss, and chat about restaurants, the DineConnect initiative seeks to redefine the dining experience. Foodies and restaurant owners have different needs, and Restaurant Hub combines essential elements to meet those needs while also improving user interaction and pleasure.
 
-### 3.0 Objective
+## 3.0 Objective
 The objective of this project is to:
 - Give customers an easy way to make reservations for the restaurants of their choosing.
 * Encourage sincere and educational restaurant evaluations and ratings from actual patrons.
@@ -24,38 +24,38 @@ The objective of this project is to:
 - Encourage a community-driven setting where people can exchange ideas and talk about their dining experiences.
 * Improve user communication by implementing real-time chat features.
 
-### 4.0 Features and Functionalities
-4.1 Home Page
-   - Featured restaurants carousel/slider showcasing images and promotions.
-   - Search bar with filters (location, cuisine, price range) for finding restaurants.
-   - Quick links to popular cuisines or locations for easy navigation.
-   - Featured forums related to dining.
+## 4.0 Features and Functionalities
+### 4.1 Home Page
+1. Featured restaurants carousel/slider showcasing images and promotions.
+2. Search bar with filters (location, cuisine, price range) for finding restaurants.
+3. Quick links to popular cuisines or locations for easy navigation.
+4. Featured forums related to dining.
 
-4.2 Restaurant Listings Page
-   - List of restaurants based on search criteria with images and brief descriptions.
-   - Filters (location, cuisine, price range) for refining search results.
+### 4.2 Restaurant Listings Page
+1. List of restaurants based on search criteria with images and brief descriptions.
+2. Filters (location, cuisine, price range) for refining search results.
 
-4.3 Restaurant Detail Page
-   - Restaurant information (address, contact details, hours of operation).
-   - Reviews and ratings section with option to read/write reviews and rate different aspects.
-   - Photo gallery showcasing the restaurant's ambiance and dishes.
-   - Menu display (if available) with pricing information.
-   - Related restaurants or similar recommendations based on user preferences.
+### 4.3 Restaurant Detail Page
+1. Restaurant information (address, contact details, hours of operation).
+2. Reviews and ratings section with option to read/write reviews and rate different aspects.
+3. Photo gallery showcasing the restaurant's ambiance and dishes.
+4. Menu display (if available) with pricing information.
+5. Related restaurants or similar recommendations based on user preferences.
 
-4.4 Booking Page
-   - Search filters for finding restaurants based on location, cuisine, and availability.
-   - Calendar or date picker for selecting booking dates.
-   - Time slots for selecting reservation times.
-   - Confirmation page with booking details, options for cancellations, and payment (if required).
+### 4.4 Booking Page
+1. Search filters for finding restaurants based on location, cuisine, and availability.
+2. Calendar or date picker for selecting booking dates.
+3. Time slots for selecting reservation times.
+4. Confirmation page with booking details, options for cancellations, and payment (if required).
 
-4.5 Review and Rating Page
-   - Form for leaving reviews and ratings for food quality, service, ambiance, etc.
-   - Recent reviews and average ratings displayed prominently for user reference.
+### 4.5 Review and Rating Page
+1. Form for leaving reviews and ratings for food quality, service, ambiance, etc.
+2. Recent reviews and average ratings displayed prominently for user reference.
 
-4.6 Discussion and Chat Page
-   - Discussion forums or chat rooms for users to discuss restaurants, share tips, and ask questions.
-   - Real-time chat feature for instant messaging among users.
-   - Moderation tools for managing discussions, reporting inappropriate content, and ensuring a positive community experience.
+### 4.6 Discussion and Chat Page
+1. Discussion forums or chat rooms for users to discuss restaurants, share tips, and ask questions.
+2. Real-time chat feature for instant messaging among users.
+3. Moderation tools for managing discussions, reporting inappropriate content, and ensuring a positive community experience.
 
-### 5.0 Entity Relation Diagram
-### 6.0 Sequence Diagram
+## 5.0 Entity Relation Diagram
+## 6.0 Sequence Diagram
