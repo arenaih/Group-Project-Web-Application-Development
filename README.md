@@ -11,3 +11,8 @@
 | 3   | MUHAMMAD AZRI BIN BURHAN            | 2211585   |
 | 4   | AHMAD AZAMUDDIN BIN MOHD ZAINUDDIN  | 2215501   |
 ### 1.0 Project Title
+### 2.0 Introduction
+### 3.0 Objective
+### 4.0 Features and Functionalities
+### 5.0 Entity Relation Diagram
+### 6.0 Sequence Diagram
