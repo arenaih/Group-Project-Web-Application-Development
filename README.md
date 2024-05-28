@@ -20,7 +20,6 @@ By developing a comprehensive online platform where users can find, book, review
 The objective of this project is to:
 - Give customers an easy way to make reservations for the restaurants of their choosing.
 * Encourage sincere and educational restaurant evaluations and ratings from actual patrons.
-+ Customize restaurant suggestions according to user tastes and habits.
 - Encourage a community-driven setting where people can exchange ideas and talk about their dining experiences.
 * Improve user communication by implementing real-time chat features.
 
