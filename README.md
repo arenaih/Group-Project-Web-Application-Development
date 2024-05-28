@@ -27,11 +27,11 @@ The objective of this project is to:
 ## 4.0 Features and Functionalities
 
 ### 4.1 Login Page
-1. Customer can login and will be directed to the home page
-2. Customer can click sign up and will be directed to the sign up page.
+1. User can login and will be directed to the home page
+2. User can click sign up and will be directed to the sign up page.
 
 ### 4.2 Sign Up Page
-1. Customer can sign up on this page and will be directed to the home page.
+1. User can sign up on this page and will be directed to the home page.
 
 ### 4.3 Home Page
 1. Featured restaurants carousel/slider showcasing images and promotions.
