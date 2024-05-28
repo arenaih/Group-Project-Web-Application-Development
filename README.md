@@ -60,7 +60,7 @@ The objective of this project is to:
 2. Recent reviews and average ratings displayed prominently for user reference.
 
 ### 4.8 Messaging Page
-1. Real-time chat feature for instant messaging among users.
+1. Real-time chat feature for instant messaging for users to interact with restaurants.
 
 ## 5.0 Entity Relation Diagram
 ### <img src="./erd.drawio.png" width="90%">
