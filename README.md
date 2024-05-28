@@ -59,10 +59,8 @@ The objective of this project is to:
 1. Form for leaving reviews and ratings for food quality, service, ambiance, etc.
 2. Recent reviews and average ratings displayed prominently for user reference.
 
-### 4.8 Discussion and Chat Page
-1. Discussion forums or chat rooms for users to discuss restaurants, share tips, and ask questions.
-2. Real-time chat feature for instant messaging among users.
-3. Moderation tools for managing discussions, reporting inappropriate content, and ensuring a positive community experience.
+### 4.8 Messaging Page
+1. Real-time chat feature for instant messaging among users.
 
 ## 5.0 Entity Relation Diagram
 ### <img src="./erd.drawio.png" width="90%">
