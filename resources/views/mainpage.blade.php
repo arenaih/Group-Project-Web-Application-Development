@@ -54,10 +54,38 @@
             </p>
           </div>
         </div>
-
       </div>
 
     </section><!-- /About Section -->
+
+ <!-- Restaurant Listing Section -->
+ <section id="restaurant-listing" class="about section">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+            <div class="col-lg-6 order-lg-1">
+                <img src="assets/img/about.jpg" class="img-fluid about-img" alt="">
+            </div>
+            <div class="col-lg-6 order-lg-2 content">
+                <h3>Restaurant Name</h3>
+                <p class="fst-italic">
+                    Description of the restaurant.
+                </p>
+                <ul>
+                    <li><i class="bi bi-check2-all"></i> <span>Feature 1</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Feature 2</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Feature 3</span></li>
+                </ul>
+                <p>
+                    Additional information about the restaurant.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section><!-- /Restaurant Listing Section -->
 
     <!-- Why Us Section -->
     <section id="why-us" class="why-us section">

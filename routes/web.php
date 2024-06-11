@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
-
 use App\Http\Controllers\RestaurantController;
 
 Route::get('/', function () {
@@ -32,3 +31,5 @@ Route::get('/add-restaurant', function() {
     return view('add-restaurant');
 });
 Route::resource('addrestaurant', RestaurantController::class);
+
+Route::get('/listing', [RestaurantController::class, 'index2']);

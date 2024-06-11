@@ -73,7 +73,7 @@
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="/mainpage" class="active">Home<br></a></li>
-
+            <li><a href="/listing">Listing</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="/restaurants">Restaurant Detail</a></li>

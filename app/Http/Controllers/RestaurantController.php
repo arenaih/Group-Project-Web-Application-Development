@@ -19,6 +19,13 @@ class RestaurantController extends Controller
         return view('restaurants',['restaurants'=>$restaurants]);
     }
 
+    public function index2()
+    {
+        $restaurants = DB::table('restaurants')
+        ->orderBy('restaurant_id','asc')
+        ->get();
+        return view('listing',['restaurants'=>$restaurants]);
+    }
     /**
      * Show the form for creating a new resource.
      */
