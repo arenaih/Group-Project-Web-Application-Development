@@ -34,13 +34,11 @@
                                         <div class="col-lg-6">
                                             <h3>{{$restaurant->name}}</h3>
                                             <p class="fst-italic">
-                                                Description of the restaurant.
+                                                Welcome to {{$restaurant->name}}, located in {{$restaurant->address}}.
+                                                Our restaurant offers delicious dishes made with the best ingredients, served in a cozy and friendly atmosphere. Whether you're here for a casual meal with friends or a special celebration, our team is dedicated to making your dining experience memorable.
+                                                Join us for great food and good times at {{$restaurant->name}}.
                                             </p>
                                             <ul class="list-unstyled">
-                                                <li>
-                                                    <i class="bi bi-check2-all"></i>
-                                                    <span>Restaurant ID: {{$restaurant->restaurant_id}}</span>
-                                                </li>
                                                 <li>
                                                     <i class="bi bi-check2-all"></i>
                                                     <span>Name: {{$restaurant->name}}</span>
@@ -63,7 +61,9 @@
                                                 </li>
                                             </ul>
                                             <p>
-                                                Additional information about the restaurant.
+                                                {{$restaurant->name}} offers a warm atmosphere, fresh local ingredients,
+                                                and a menu with options for all dietary preferences,
+                                                ensuring an enjoyable dining experience for everyone.
                                             </p>
                                         </div>
                                     </div>
