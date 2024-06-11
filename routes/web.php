@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 
+use App\Http\Controllers\RestaurantController;
+
 Route::get('/', function () {
     return view('loginpage');
 });
@@ -23,3 +25,10 @@ Route::middleware([
 
 Route::get('/profile', [ProfileController::class, 'show'])->name('profile.show');
 Route::get('/profile', [ProfileController::class, 'show'])->name('profile.show')->middleware('auth');
+
+
+Route::get('/restaurants', [RestaurantController::class, 'index']);
+Route::get('/add-restaurant', function() {
+    return view('add-restaurant');
+});
+Route::resource('addrestaurant', RestaurantController::class);
