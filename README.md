@@ -91,6 +91,10 @@ The objective of this project is to:
 6. Booking List Page
    Consist of form to book the restaurant at desired time and date
 ### <img src="Screenshot 2024-06-13 062501.png" width="90%">
+7. Review Form Page
+### <img src="Screenshot 2024-06-13 073824.png" width="90%">
+8. Review List Page
+### <img src="Screenshot 2024-06-13 073852.png" width="90%">
 ## 8.0 Challenge/Difficulties to Develop the Application
 1. Miscommunication between group members.
 2. Wrong data type between controller and database.
