@@ -66,23 +66,30 @@ The objective of this project is to:
 ### <img src="Sequence Diagram (2).png" width="90%">
 
 ## 7.0 Project System Captured Screen and Explanation
-1.Login page and register page
-*Consist of welcoming text,register page for first time user and login page for existing user
+1. Login Page and Register Page
+   Consist of welcoming text,register page for first time user and login page for existing user
 ### <img src="Screenshot 2024-06-13 060838.png" width="90%">
 ### <img src="Screenshot 2024-06-13 061137.png" width="90%">
 ### <img src="Screenshot 2024-06-13 061546.png" width="90%">
-2. Main page
-*Consist of welcoming text, about us, restaurant listing, team members, and contact info
+2. Main Page
+   Consist of welcoming text, about us, restaurant listing, team members, and contact info
 ### <img src="Screenshot 2024-06-13 060027.png" width="90%">
 ### <img src="Screenshot 2024-06-13 060110.png" width="90%">
 ### <img src="Screenshot 2024-06-13 060131.png" width="90%">
 ### <img src="Screenshot 2024-06-13 060146.png" width="90%">
 ### <img src="Screenshot 2024-06-13 060208.png" width="90%">
-
+3. Restaurant Listing Page
+   Consist of name, address, phone number, cuisine type and price of the available restaurants.
 ### <img src="Screenshot 2024-06-13 062255.png" width="90%">
+4. Restaurant Detail Page
+   Consist of detail of the restaurant,deleting and adding the restaurants.
 ### <img src="Screenshot 2024-06-13 062402.png" width="90%">
 ### <img src="Screenshot 2024-06-13 062422.png" width="90%">
+5. Booking List Page
+   Consist of list of booked restaurant and name of customer.Also contain name, email, phone, date, time, number of people, and message.
 ### <img src="Screenshot 2024-06-13 062445.png" width="90%">
+6. Booking List Page
+   Consist of form to book the restaurant at desired time and date
 ### <img src="Screenshot 2024-06-13 062501.png" width="90%">
 ## 8.0 Challenge/Difficulties to Develop the Application
 1.Miscommunication between group members.
