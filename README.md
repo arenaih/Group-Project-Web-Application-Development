@@ -66,6 +66,9 @@ The objective of this project is to:
 ### <img src="Sequence Diagram (2).png" width="90%">
 
 ## 7.0 Project System Captured Screen and Explanation
+### <img src="Screenshot 2024-06-13 060838.png" width="90%">
+### <img src="Screenshot 2024-06-13 061137.png" width="90%">
+### <img src="Screenshot 2024-06-13 061546.png" width="90%">
 1. Main page
 *Consist of welcoming text, about us, restaurant listing, team members, and contact info
 ### <img src="Screenshot 2024-06-13 060027.png" width="90%">
