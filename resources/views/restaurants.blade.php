@@ -17,34 +17,46 @@
                     Restaurant Details
                   </h5>
                   <div class="text-right mb-3">
-                    <a href="add-restaurant" class="btn btn-primary" >Add Restaurant</a>
+                    <a href="add-restaurant" class="btn btn-primary">Add Restaurant</a>
+                  </div>
+                  <div class="col-md-12">
+                    <div style="overflow-x: auto; margin-top: 70px;">
+                      <table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
+                        <thead>
+                          <tr>
+                            <th scope="col" style="border: 1px solid black;">Restaurant ID</th>
+                            <th scope="col" style="border: 1px solid black;">Name</th>
+                            <th scope="col" style="border: 1px solid black;">Address</th>
+                            <th scope="col" style="border: 1px solid black;">Phone Number</th>
+                            <th scope="col" style="border: 1px solid black;">Cuisine Type</th>
+                            <th scope="col" style="border: 1px solid black;">Price</th>
+                            <th scope="col" style="border: 1px solid black;">Actions</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          @foreach ($restaurants as $restaurant)
+                            <tr>
+                              <td scope="row" style="border: 1px solid black;">{{$restaurant->restaurant_id}}</td>
+                              <td scope="row" style="border: 1px solid black;">{{$restaurant->name}}</td>
+                              <td scope="row" style="border: 1px solid black;">{{$restaurant->address}}</td>
+                              <td scope="row" style="border: 1px solid black;">{{$restaurant->phone}}</td>
+                              <td scope="row" style="border: 1px solid black;">{{$restaurant->cuisine_type}}</td>
+                              <td scope="row" style="border: 1px solid black;">{{$restaurant->price}}</td>
+                              <td style="border: 1px solid black;">
+                                <a href="/edit-restaurant/{{$restaurant->restaurant_id}}" class="btn btn-info">Edit</a>
+                                <form action="/delete-restaurant/{{$restaurant->restaurant_id}}" method="post" style="display: inline-block;">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-danger">Delete</button>
 
-              <div class="col-md-12">
-                <div style="overflow-x: auto; margin-top: 70px;">
-                  <table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
-                    <thead>
-                      <tr>
-                        <th scope="col" style="border: 1px solid black;">Restaurant ID</th>
-                        <th scope="col" style="border: 1px solid black;">Name</th>
-                        <th scope="col" style="border: 1px solid black;">Address</th>
-                        <th scope="col" style="border: 1px solid black;">Phone Number</th>
-                        <th scope="col" style="border: 1px solid black;">Cuisine Type</th>
-                        <th scope="col" style="border: 1px solid black;">Price</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                        @foreach ($restaurants as $restaurant)
-                      <tr>
-                        <td scope="row" style="border: 1px solid black;">{{$restaurant->restaurant_id}}</td>
-                        <td scope="row" style="border: 1px solid black;">{{$restaurant->name}}</td>
-                        <td scope="row" style="border: 1px solid black;">{{$restaurant->address}}</td>
-                        <td scope="row" style="border: 1px solid black;">{{$restaurant->phone}}</td>
-                        <td scope="row" style="border: 1px solid black;">{{$restaurant->cuisine_type}}</td>
-                        <td scope="row" style="border: 1px solid black;">{{$restaurant->price}}</td>
-                      </tr>
-                      @endforeach
-                    </tbody>
-                  </table>
+                                </form>
+                              </td>
+                            </tr>
+                          @endforeach
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

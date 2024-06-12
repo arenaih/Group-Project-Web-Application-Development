@@ -33,3 +33,7 @@ Route::get('/add-restaurant', function() {
 Route::resource('addrestaurant', RestaurantController::class);
 
 Route::get('/listing', [RestaurantController::class, 'index2']);
+
+Route::get('/edit-restaurant/{id}', [RestaurantController::class, 'edit']);
+Route::put('/update-restaurant/{id}', [RestaurantController::class, 'update']);
+Route::delete('/delete-restaurant/{id}', [RestaurantController::class, 'destroy']);
