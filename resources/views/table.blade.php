@@ -25,7 +25,7 @@
             </div> -->
             <div class="row">
             <div class="col-lg-6">
-            <h5 class="container section-title">
+            <h5 class="container section-titles">
                         <p>Booking list</p>
                         </h5>
             </div>
@@ -84,6 +84,7 @@
 
             <div class="col-lg-6">
               <ul>
+                <li> <i class=" bi-chevron-right"></i> <strong>Restaurant Name :</strong> <span>{{$table->restname}}</span></li>
                 <li> <i class=" bi-chevron-right"></i> <strong>Name :</strong> <span>{{$table->name}}</span></li>
                 <li> <i class=" bi-chevron-right"></i><strong>Email :</strong> <span>{{$table->email}}</span></li>
                 <li> <i class=" bi-chevron-right"></i><strong>Phone :</strong> <span>{{$table->phone}}</span></li>

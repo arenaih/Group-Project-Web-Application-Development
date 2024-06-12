@@ -8,7 +8,7 @@
 
 
 <!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
+<div class="container tajuk" data-aos="fade-up">
   <h2>RESERVATION</h2>
   <p>Book a Table</p>
 </div>
@@ -21,6 +21,9 @@
    <form action="booktable" method="post" role="form" class="php-email-form" >
   @csrf
     <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+            <input type="text" name="restname" class="form-control" id="restname" placeholder="Restaurant Name" required="">
+          </div>
       <div class="col-lg-4 col-md-6">
         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
       </div>

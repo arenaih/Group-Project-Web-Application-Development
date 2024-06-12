@@ -801,10 +801,17 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-padding-top: 150px;
+padding-top: 20px;
   padding-bottom: 30px;
   position: relative;
 }
+
+.tajuk{
+
+    padding-top: 150px;
+      padding-bottom: 30px;
+      position: relative;
+    }
 
 .section-title h2 {
   font-size: 14px;
@@ -834,6 +841,15 @@ padding-top: 150px;
   font-weight: 600;
   font-family: var(--heading-font);
 }
+
+.section-titles p {
+    padding-top: 100px;
+    color: var(--accent-color);
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--heading-font);
+  }
 
 strong{
     color: var(--accent-color);
@@ -1080,6 +1096,9 @@ strong{
 /*--------------------------------------------------------------
 # Why Us Section
 --------------------------------------------------------------*/
+
+
+
 .why-us .card-item {
   background: color-mix(in srgb, var(--default-color), transparent 92%);
   padding: 50px 30px;
@@ -1291,7 +1310,7 @@ strong{
   --default-color: #ffffff;
   --background-color: #000000;
   --heading-color: #ffffff;
-  padding: 80px 0;
+  padding: 30px 0;
   position: relative;
 }
 
@@ -1832,6 +1851,16 @@ strong{
     transition: 0.4s;
     border-radius: 50px;
      margin-left:300px;
+  }
+
+  .sent-message{
+
+    color: #ffffff;
+    background: #059652;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
   }
 
 button[type=submit]:hover {

@@ -20,6 +20,12 @@ class RestaurantController extends Controller
         return view('listing', ['restaurants' => $restaurants]);
     }
 
+    public function index3()
+{
+    $restaurants = Restaurant::all(); // or use pagination if needed
+    return view('home', compact('restaurants'));
+}
+
     public function create()
     {
         return view('create_restaurant');

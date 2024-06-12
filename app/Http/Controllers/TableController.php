@@ -37,6 +37,7 @@ class TableController extends Controller
     {
         //
         $book= new Table();
+        $book->restname=$request->restname;
         $book->name=$request->name;
         $book->email=$request->email;
         $book->phone=$request->phone;
