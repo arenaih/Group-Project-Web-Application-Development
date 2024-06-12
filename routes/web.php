@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RestaurantController;
+use App\Http\Controllers\TableController;
 
 Route::get('/', function () {
     return view('loginpage');
@@ -37,3 +38,9 @@ Route::get('/listing', [RestaurantController::class, 'index2']);
 Route::get('/edit-restaurant/{id}', [RestaurantController::class, 'edit']);
 Route::put('/update-restaurant/{id}', [RestaurantController::class, 'update']);
 Route::delete('/delete-restaurant/{id}', [RestaurantController::class, 'destroy']);
+
+Route::get('/table', [TableController::class, 'index']);
+Route::get('/book-table', function() {
+    return view('book-table');
+});
+Route::resource('booktable', TableController::class);

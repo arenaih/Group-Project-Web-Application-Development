@@ -17,7 +17,7 @@
             <p data-aos="fade-up" data-aos-delay="200">Delivering great food for more than 18 years!</p>
             <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
               <a href="#menu" class="cta-btn">Our Menu</a>
-              <a href="#book-a-table" class="cta-btn">Book a Table</a>
+              <a href="/book-table" class="cta-btn">Book a Table</a>
             </div>
           </div>
           <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0">

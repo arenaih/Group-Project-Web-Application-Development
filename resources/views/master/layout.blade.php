@@ -80,6 +80,7 @@
             <li><a href="#events">Events</a></li>
             <li><a href="#chefs">Chefs</a></li>
             <li><a href="#gallery">Gallery</a></li>
+            <li><a href="/table">Booking list</a></li>
             <!--<li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#">Dropdown 1</a></li>
@@ -113,7 +114,7 @@
             </div>
         </div>
         @endauth
-        <a class="btn-book-a-table d-none d-xl-block" href="#book-a-table">Book a Table</a>
+        {{-- <a class="btn-book-a-table d-none d-xl-block" href="#book-a-table">Book a Table</a> --}}
 
       </div>
 

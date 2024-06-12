@@ -18,7 +18,7 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
+:root {
   --background-color: #0c0b09; /* Background color for the entire website, including individual sections */
   --default-color: rgba(255, 255, 255, 0.7); /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
@@ -801,7 +801,8 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+padding-top: 150px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -831,6 +832,14 @@ section,
   margin: 0;
   font-size: 36px;
   font-weight: 600;
+  font-family: var(--heading-font);
+}
+
+strong{
+    color: var(--accent-color);
+  margin: 0;
+  font-size: 20px;
+  font-weight: 20px;
   font-family: var(--heading-font);
 }
 
@@ -1787,6 +1796,37 @@ section,
   transition: 0.4s;
   border-radius: 50px;
 }
+.box{
+    color: var(--default-color);
+    background: none;
+    border: 2px solid var(--accent-color);
+    padding: 8px 36px;
+    transition: 0.4s;
+    border-radius: 50px;
+
+}
+
+.box li{
+
+
+}
+
+button[type=submit] {
+    color: var(--default-color);
+    background: none;
+    border: 2px solid var(--accent-color);
+    padding: 8px 36px;
+    margin-top: 125px;
+    margin-left:300px;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
+button[type=submit]:hover {
+    background: var(--accent-color);
+  }
+
+
 
 .contact .php-email-form button[type=submit]:hover {
   background: var(--accent-color);
