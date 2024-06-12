@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RestaurantController;
 use App\Http\Controllers\TableController;
-
+use App\Http\Controllers\ReviewController;
 Route::get('/', function () {
     return view('loginpage');
 });
@@ -45,3 +45,12 @@ Route::get('/book-table', function() {
     return view('book-table');
 });
 Route::resource('booktable', TableController::class);
+Route::middleware('auth')->group(function () {
+    Route::get('/review', [ReviewController::class, 'create'])->name('review.create');
+    Route::post('/review', [ReviewController::class, 'store'])->name('review.store');
+});
+
+Route::resource('reviews', ReviewController::class);
+Route::post('/review', [ReviewController::class, 'store'])->name('review.store');
+Route::get('/review', [ReviewController::class, 'create']);
+Route::get('/reviewlist', [ReviewController::class, 'index'])->name('reviews.index');

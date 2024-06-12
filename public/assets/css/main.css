@@ -1873,6 +1873,124 @@ button[type=submit]:hover {
   background: var(--accent-color);
 }
 
+.review {
+    background-color: color-mix(in srgb, var(--background-color) 90%, white 5%);
+    border-bottom: 1px solid color-mix(in srgb, var(--accent-color), transparent 90%);
+  }
+
+  .review .info-item+.info-item {
+    margin-top: 40px;
+  }
+
+  .review .info-item i {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+  }
+
+  .review .info-item h3 {
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .review .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .review .php-email-form {
+    height: 100%;
+  }
+
+  .review .php-email-form .error-message {
+    display: none;
+    background: #df1529;
+    color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+
+  .review .php-email-form .sent-message {
+    display: none;
+    color: #ffffff;
+    background: #059652;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+
+  .review .php-email-form .loading {
+    display: none;
+    background: var(--background-color);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+  }
+
+  .review .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid var(--accent-color);
+    border-top-color: var(--background-color);
+    animation: animate-loading 1s linear infinite;
+  }
+
+  .review .php-email-form input[type=text],
+  .review .php-email-form input[type=email],
+  .review .php-email-form textarea {
+    font-size: 14px;
+    padding: 20px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: var(--accent-color);
+    background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+    border-color: color-mix(in srgb, var(--accent-color), transparent 70%);
+  }
+
+  .review .php-email-form input[type=text]:focus,
+  .review .php-email-form select:focus,
+  .review .php-email-form input[type=email]:focus,
+  .review .php-email-form textarea:focus {
+    border-color: var(--accent-color);
+  }
+
+  .review .php-email-form input[type=text]::placeholder,
+  .review .php-email-form input[type=email]::placeholder,
+  .review .php-email-form textarea::placeholder {
+    color: color-mix(in srgb, var(--accent-color), transparent 50%);
+  }
+
+
+  .rev2{
+    color: var(--default-color);
+    background: none;
+    border: 2px solid var(--accent-color);
+    padding: 8px 36px;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
+  .rev2:hover {
+    background: var(--accent-color);
+  }
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);

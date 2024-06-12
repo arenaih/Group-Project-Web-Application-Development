@@ -81,6 +81,8 @@
             <li><a href="#chefs">Chefs</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="/table">Booking list</a></li>
+            <li><a href="/review">Leave a Review</a></li>
+            <li><a href="/reviewlist">See Reviews</a></li>
             <!--<li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#">Dropdown 1</a></li>
