@@ -64,3 +64,11 @@ The objective of this project is to:
 ### <img src="erd.png" width="90%">
 ## 6.0 Sequence Diagram
 ### <img src="Sequence Diagram (2).png" width="90%">
+
+## 7.0 Project System Captured Screen and Explanation
+
+## 8.0 Challenge/Difficulties to Develop the Application
+1.Miscommunication between group members.
+2.Wrong data type between controller and database.
+3.Error like bugs and technical glitches arise unexpectedly during development.
+4.Merge conflict where we can't commit the files.
