@@ -61,7 +61,7 @@ The objective of this project is to:
 
 
 ## 5.0 Entity Relation Diagram
-### <img src="erd.png" width="90%">
+### <img src="erd1.png" width="90%">
 ## 6.0 Sequence Diagram
 ### <img src="Sequence Diagram (2).png" width="90%">
 
