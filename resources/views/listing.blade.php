@@ -29,39 +29,39 @@
                                     @foreach ($restaurants as $restaurant)
                                     <div class="row gy-4">
                                         <div class="col-lg-6">
-                                            <img src="assets/img/about.jpg" class="img-fluid about-img" alt="">
+                                            <img src="{{ asset('storage/' . $restaurant->image_url) }}" class="img-fluid about-img" alt="{{ $restaurant->name }}">
                                         </div>
                                         <div class="col-lg-6">
-                                            <h3>{{$restaurant->name}}</h3>
+                                            <h3>{{ $restaurant->name }}</h3>
                                             <p class="fst-italic">
-                                                Welcome to {{$restaurant->name}}, located in {{$restaurant->address}}.
+                                                Welcome to {{ $restaurant->name }}, located in {{ $restaurant->address }}.
                                                 Our restaurant offers delicious dishes made with the best ingredients, served in a cozy and friendly atmosphere. Whether you're here for a casual meal with friends or a special celebration, our team is dedicated to making your dining experience memorable.
-                                                Join us for great food and good times at {{$restaurant->name}}.
+                                                Join us for great food and good times at {{ $restaurant->name }}.
                                             </p>
                                             <ul class="list-unstyled">
                                                 <li>
                                                     <i class="bi bi-check2-all"></i>
-                                                    <span>Name: {{$restaurant->name}}</span>
+                                                    <span>Name: {{ $restaurant->name }}</span>
                                                 </li>
                                                 <li>
                                                     <i class="bi bi-check2-all"></i>
-                                                    <span>Address: {{$restaurant->address}}</span>
+                                                    <span>Address: {{ $restaurant->address }}</span>
                                                 </li>
                                                 <li>
                                                     <i class="bi bi-check2-all"></i>
-                                                    <span>Phone Number: {{$restaurant->phone}}</span>
+                                                    <span>Phone Number: {{ $restaurant->phone }}</span>
                                                 </li>
                                                 <li>
                                                     <i class="bi bi-check2-all"></i>
-                                                    <span>Cuisine Type: {{$restaurant->cuisine_type}}</span>
+                                                    <span>Cuisine Type: {{ $restaurant->cuisine_type }}</span>
                                                 </li>
                                                 <li>
                                                     <i class="bi bi-check2-all"></i>
-                                                    <span>Price: {{$restaurant->price}}</span>
+                                                    <span>Price: {{ $restaurant->price }}</span>
                                                 </li>
                                             </ul>
                                             <p>
-                                                {{$restaurant->name}} offers a warm atmosphere, fresh local ingredients,
+                                                {{ $restaurant->name }} offers a warm atmosphere, fresh local ingredients,
                                                 and a menu with options for all dietary preferences,
                                                 ensuring an enjoyable dining experience for everyone.
                                             </p>

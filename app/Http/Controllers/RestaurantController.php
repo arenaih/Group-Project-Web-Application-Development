@@ -8,48 +8,52 @@ use Illuminate\Support\Facades\DB;
 
 class RestaurantController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        $restaurants = DB::table('restaurants')
-        ->orderBy('restaurant_id','asc')
-        ->get();
-        return view('restaurants',['restaurants'=>$restaurants]);
+        $restaurants = DB::table('restaurants')->orderBy('restaurant_id', 'asc')->get();
+        return view('restaurants', ['restaurants' => $restaurants]);
     }
 
     public function index2()
     {
-        $restaurants = DB::table('restaurants')
-        ->orderBy('restaurant_id','asc')
-        ->get();
-        return view('listing',['restaurants'=>$restaurants]);
-    }
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
+        $restaurants = DB::table('restaurants')->orderBy('restaurant_id', 'asc')->get();
+        return view('listing', ['restaurants' => $restaurants]);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
+    public function create()
+    {
+        return view('create_restaurant');
+    }
+
     public function store(Request $request)
     {
-        $restaurants=new Restaurant();
-        $restaurants->restaurant_id=$request->restaurant_id;
-        $restaurants->name=$request->name;
-        $restaurants->address=$request->address;
-        $restaurants->phone=$request->phone;
-        $restaurants->cuisine_type=$request->cuisine_type;
-        $restaurants->price=$request->price;
-        $restaurants->created_at=today();
-        $restaurants->updated_at=today();
-        $restaurants->save();
-        return redirect('restaurants');
+        $request->validate([
+            'restaurant_id' => 'required|unique:restaurants,restaurant_id',
+            'name' => 'required|string|max:255',
+            'address' => 'required|string|max:255',
+            'phone' => 'required|string|max:15',
+            'cuisine_type' => 'required|string|max:255',
+            'price' => 'required|numeric',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+        ]);
+
+        // Store the image
+        $imagePath = $request->file('image')->store('images', 'public');
+
+        // Create new restaurant
+        $restaurant = new Restaurant();
+        $restaurant->restaurant_id = $request->restaurant_id;
+        $restaurant->name = $request->name;
+        $restaurant->address = $request->address;
+        $restaurant->phone = $request->phone;
+        $restaurant->cuisine_type = $request->cuisine_type;
+        $restaurant->price = $request->price;
+        $restaurant->image_url = $imagePath;
+        $restaurant->created_at = now();
+        $restaurant->updated_at = now();
+        $restaurant->save();
+
+        return redirect('restaurants')->with('success', 'Restaurant created successfully.');
     }
 
     /**

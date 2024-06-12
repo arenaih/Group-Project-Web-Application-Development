@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
   <div class="overlay-mf"></div>
   <div class="container">
@@ -18,7 +17,7 @@
                   </h5>
                 </div>
                 <div>
-                  <form action="addrestaurant" method="post" role="form" enctype="multipart/form-data">
+                  <form action="{{ route('addrestaurant.store') }}" method="post" role="form" enctype="multipart/form-data">
                     @csrf
                     <div class="row">
                       <div class="col-md-12 mb-3">
@@ -49,6 +48,11 @@
                       <div class="col-md-12 mb-3">
                         <div class="form-group">
                           <input type="text" name="price" class="form-control" id="price" placeholder="Price" required>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="file" name="image" class="form-control-file" id="image" required>
                         </div>
                       </div>
                       <div class="col-md-12 text-center">
