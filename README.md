@@ -67,7 +67,7 @@ The objective of this project is to:
 
 ## 7.0 Project System Captured Screen and Explanation
 1. Main page
--Consist of welcoming text, about us, restaurant listing, team members, and contact info
+*Consist of welcoming text, about us, restaurant listing, team members, and contact info
 ### <img src="Screenshot 2024-06-13 060027.png" width="90%">
 ### <img src="Screenshot 2024-06-13 060110.png" width="90%">
 ### <img src="Screenshot 2024-06-13 060131.png" width="90%">
