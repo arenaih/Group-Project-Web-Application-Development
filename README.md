@@ -66,7 +66,11 @@ The objective of this project is to:
 ### <img src="Sequence Diagram (2).png" width="90%">
 
 ## 7.0 Project System Captured Screen and Explanation
-
+### <img src="Screenshot 2024-06-13 060027.png" width="90%">
+### <img src="Screenshot 2024-06-13 060110.png" width="90%">
+### <img src="Screenshot 2024-06-13 060131.png" width="90%">
+### <img src="Screenshot 2024-06-13 060146.png" width="90%">
+### <img src="Screenshot 2024-06-13 060208.png" width="90%">
 ## 8.0 Challenge/Difficulties to Develop the Application
 1.Miscommunication between group members.
 2.Wrong data type between controller and database.
