@@ -78,6 +78,12 @@ The objective of this project is to:
 ### <img src="Screenshot 2024-06-13 060131.png" width="90%">
 ### <img src="Screenshot 2024-06-13 060146.png" width="90%">
 ### <img src="Screenshot 2024-06-13 060208.png" width="90%">
+
+### <img src="Screenshot 2024-06-13 062255.png" width="90%">
+### <img src="Screenshot 2024-06-13 062402.png" width="90%">
+### <img src="Screenshot 2024-06-13 062422.png" width="90%">
+### <img src="Screenshot 2024-06-13 062445.png" width="90%">
+### <img src="Screenshot 2024-06-13 062501.png" width="90%">
 ## 8.0 Challenge/Difficulties to Develop the Application
 1.Miscommunication between group members.
 2.Wrong data type between controller and database.
