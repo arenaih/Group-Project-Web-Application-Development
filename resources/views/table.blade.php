@@ -31,7 +31,7 @@
             </div>
             <div class="col-lg-6">
             <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-              <div class="text-center"> <button onclick="document.location='/book-table'" type='submit' class='high'> Book</button></div>
+              <div class="text-center"> <button onclick="document.location='/book-table'" type='submit' class='azam'> Book</button></div>
             </div>
             </div>
 

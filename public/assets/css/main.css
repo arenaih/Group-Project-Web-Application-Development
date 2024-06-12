@@ -1811,15 +1811,27 @@ strong{
 
 }
 
-button[type=submit] {
+/* button[type=submit] {
     color: var(--default-color);
     background: none;
     border: 2px solid var(--accent-color);
     padding: 8px 36px;
     margin-top: 125px;
-    margin-left:300px;
+
     transition: 0.4s;
     border-radius: 50px;
+  } */
+
+  .azam{
+    color: var(--default-color);
+    background: none;
+    border: 2px solid var(--accent-color);
+    padding: 8px 36px;
+    margin-top: 125px;
+
+    transition: 0.4s;
+    border-radius: 50px;
+     margin-left:300px;
   }
 
 button[type=submit]:hover {
