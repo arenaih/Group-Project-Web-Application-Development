@@ -54,21 +54,50 @@ The objective of this project is to:
 3. Time slots for selecting reservation times.
 4. Confirmation page with booking details, options for cancellations, and payment (if required).
 
-### 4.7 Review and Rating Page
-1. Form for leaving reviews and ratings for food quality, service, ambiance, etc.
-2. Recent reviews and average ratings displayed prominently for user reference.
+### 4.7 Review and Rating Submission page
+1. Form for leaving reviews for food quality, service,comfort, ambiance, etc.
+2. Drop down form to rate the quality from 1 to 5.
 
-
+### 4.8 Review Listings page
+1. List of reviews submitted by users
 
 ## 5.0 Entity Relation Diagram
-### <img src="erd.png" width="90%">
+### <img src="erd1.png" width="90%">
 ## 6.0 Sequence Diagram
 ### <img src="Sequence Diagram (2).png" width="90%">
 
 ## 7.0 Project System Captured Screen and Explanation
-
+1. Login Page and Register Page
+   Consist of welcoming text,register page for first time user and login page for existing user
+### <img src="Screenshot 2024-06-13 060838.png" width="90%">
+### <img src="Screenshot 2024-06-13 061137.png" width="90%">
+### <img src="Screenshot 2024-06-13 061546.png" width="90%">
+2. Main Page
+   Consist of welcoming text, about us, restaurant listing, team members, and contact info
+### <img src="Screenshot 2024-06-13 060027.png" width="90%">
+### <img src="Screenshot 2024-06-13 060110.png" width="90%">
+### <img src="Screenshot 2024-06-13 060131.png" width="90%">
+### <img src="Screenshot 2024-06-13 060146.png" width="90%">
+### <img src="Screenshot 2024-06-13 060208.png" width="90%">
+3. Restaurant Listing Page
+   Consist of name, address, phone number, cuisine type and price of the available restaurants.
+### <img src="Screenshot 2024-06-13 062255.png" width="90%">
+4. Restaurant Detail Page
+   Consist of detail of the restaurant,deleting and adding the restaurants.
+### <img src="Screenshot 2024-06-13 062402.png" width="90%">
+### <img src="Screenshot 2024-06-13 062422.png" width="90%">
+5. Booking List Page
+   Consist of list of booked restaurant and name of customer.Also contain name, email, phone, date, time, number of people, and message.
+### <img src="Screenshot 2024-06-13 062445.png" width="90%">
+6. Booking List Page
+   Consist of form to book the restaurant at desired time and date
+### <img src="Screenshot 2024-06-13 062501.png" width="90%">
+7. Review Form Page
+### <img src="Screenshot 2024-06-13 073824.png" width="90%">
+8. Review List Page
+### <img src="Screenshot 2024-06-13 073852.png" width="90%">
 ## 8.0 Challenge/Difficulties to Develop the Application
-1.Miscommunication between group members.
-2.Wrong data type between controller and database.
-3.Error like bugs and technical glitches arise unexpectedly during development.
-4.Merge conflict where we can't commit the files.
+1. Miscommunication between group members.
+2. Wrong data type between controller and database.
+3. Error like bugs and technical glitches arise unexpectedly during development.
+4. Merge conflict where we can't commit the files.
