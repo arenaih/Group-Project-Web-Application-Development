@@ -70,6 +70,8 @@ class RestaurantController extends Controller
         //
     }
 
+
+
     public function edit($id)
     {
         $restaurant = Restaurant::findOrFail($id);

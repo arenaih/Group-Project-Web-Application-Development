@@ -10,13 +10,11 @@ class CreateReviewsTable extends Migration
     {
         Schema::create('reviews', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table->string('restaurant_id');
+            $table->string('restaurant_name');
             $table->text('review');
             $table->unsignedTinyInteger('rating'); // assuming a rating out of 5
             $table->timestamps();
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-            $table->foreign('restaurant_id')->references('restaurant_id')->on('restaurants')->onDelete('cascade');
+
         });
     }
 

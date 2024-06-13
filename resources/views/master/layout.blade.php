@@ -72,14 +72,14 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="/mainpage" class="active">Home<br></a></li>
-            <li><a href="/listing">Listing</a></li>
+            {{-- <li><a href="/mainpage" class="active">Home<br></a></li> --}}
             <li><a href="/home">Home</a></li>
-            <li><a href="#menu">Menu</a></li>
+            <li><a href="/listing">Listing</a></li>
+            {{-- <li><a href="#menu">Menu</a></li> --}}
             <li><a href="/restaurants">Restaurant Detail</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#chefs">Chefs</a></li>
-            <li><a href="#gallery">Gallery</a></li>
+            {{-- <li><a href="#events">Events</a></li> --}}
+            {{-- <li><a href="#chefs">Chefs</a></li> --}}
+            {{-- <li><a href="#gallery">Gallery</a></li> --}}
             <li><a href="/table">Booking list</a></li>
             <li><a href="/review">Leave a Review</a></li>
             <li><a href="/reviewlist">See Reviews</a></li>
@@ -100,7 +100,7 @@
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
             </li>-->
-            <li><a href="#contact">Contact</a></li>
+            {{-- <li><a href="#contact">Contact</a></li> --}}
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>

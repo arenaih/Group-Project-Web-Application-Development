@@ -53,4 +53,6 @@ Route::middleware('auth')->group(function () {
 Route::resource('reviews', ReviewController::class);
 Route::post('/review', [ReviewController::class, 'store'])->name('review.store');
 Route::get('/review', [ReviewController::class, 'create']);
-Route::get('/reviewlist', [ReviewController::class, 'index'])->name('reviews.index');
+
+Route::get('/reviewlist', [ReviewController::class, 'index']);
+Route::get('/reviews', [ReviewController::class, 'index']);

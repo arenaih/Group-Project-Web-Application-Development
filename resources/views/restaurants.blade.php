@@ -43,7 +43,7 @@
                               <td scope="row" style="border: 1px solid black;">{{$restaurant->cuisine_type}}</td>
                               <td scope="row" style="border: 1px solid black;">{{$restaurant->price}}</td>
                               <td style="border: 1px solid black;">
-                                <a href="/edit-restaurant/{{$restaurant->restaurant_id}}" class="btn btn-info">Edit</a>
+                                {{-- <a href="/edit-restaurant/{{$restaurant->restaurant_id}}" class="btn btn-info">Edit</a> --}}
                                 <form action="/delete-restaurant/{{$restaurant->restaurant_id}}" method="post" style="display: inline-block;">
                                     @csrf
                                     @method('DELETE')

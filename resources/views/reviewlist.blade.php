@@ -1,62 +1,42 @@
 @extends('master.layout')
-
 @section('content')
-<!-- Reviews Section -->
 <main class="main" style="padding-top: 60px;">
-<section id="reviews" class="review section">
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Restaurant Reviews</h2>
-    <p>Read reviews and shared experience</p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <form action="{{ route('reviews.index') }}" method="get" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-      <div class="row gy-4">
-        <div class="col-md-12">
-          <label for="restaurant">Select Restaurant</label>
-          <select name="restaurant_id" id="restaurant" class="form-control" required>
-            <option value="">Select Restaurant</option>
-            @foreach($restaurants as $restaurant)
-              <option value="{{ $restaurant->restaurant_id }}" {{ $selectedRestaurant == $restaurant->restaurant_id ? 'selected' : '' }}>
-                {{ $restaurant->name }}
-              </option>
-            @endforeach
-          </select>
-        </div>
-        <div class="col-md-12 text-center mt-3">
-          <button class="rev2">View Reviews</button>
-        </div>
-      </div>
-    </form>
-
-    @if($selectedRestaurant && $reviews->isEmpty())
-      <div class="row gy-4 mt-4">
-        <div class="col-md-12">
-          <p>No reviews found for this restaurant.</p>
-        </div>
-      </div>
-    @elseif($selectedRestaurant)
-      <div class="row gy-4 mt-4">
-        @foreach($reviews as $review)
-          <div class="col-md-6">
-            <div class="box" data-aos="fade-up" data-aos-delay="300">
-              <h4>{{ $review->name }}</h4>
-              <p>Rating: {{ $review->rating }} stars</p>
-              <p>{{ $review->review }}</p>
-              @if($review->image)
-                <img src="{{ asset('storage/' . $review->image) }}" alt="Review Image" class="img-fluid">
-              @endif
+    <div class="overlay-mf"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="review-mf">
+                    <div id="contact" class="box-shadow-full">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="title-box-2">
+                                    <h5 class="title-left" style="margin-top: 50px;">Reviews</h5>
+                                    <div class="reviews-list">
+                                        <div class="row">
+                                            @foreach ($reviews as $index => $review)
+                                                <div class="col-md-4">
+                                                    <div class="review-item border p-3"> <!-- Added border and padding classes -->
+                                                        <h2>{{ $review->restaurant_name }}</h2>
+                                                        <p>"{{ $review->review }}"</p>
+                                                        <p>Rating: {{ $review->rating }}</p>
+                                                        <hr>
+                                                    </div>
+                                                </div>
+                                                @if (($index + 1) % 3 == 0)
+                                                    </div><div class="row">
+                                                @endif
+                                            @endforeach
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        @endforeach
-      </div>
-    @endif
+        </div>
+    </div>
 
-  </div>
-
-</section><!-- /Reviews Section -->
 </main>
 @endsection

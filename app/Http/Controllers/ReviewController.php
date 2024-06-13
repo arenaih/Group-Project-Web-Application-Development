@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Restaurant;
+
 use App\Models\Review;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -11,42 +11,32 @@ class ReviewController extends Controller
 {
     public function index(Request $request)
 {
-    $restaurants = Restaurant::all();
-    $selectedRestaurant = $request->get('restaurant_id');
-    $reviews = [];
 
-    if ($selectedRestaurant) {
-        $reviews = Review::where('restaurant_id', $selectedRestaurant)->get();
-    }
+    $reviews = Review::all();
 
-    return view('reviewlist', compact('restaurants', 'reviews', 'selectedRestaurant'));
+    return view('reviewlist', compact('reviews'));
 }
 
     public function create()
     {
-        $restaurants = Restaurant::all();
-        return view('review', compact('restaurants'));
+
+        return view('review');
     }
 
     public function store(Request $request)
     {
 
-        $request->validate([
-            'restaurant_id' => 'required|exists:restaurants,restaurant_id',
-            'review' => 'required|string|max:500',
-            'rating' => 'required|integer|between:1,5',
-
-        ]);
 
 
-        Review::create([
-            'user_id' => Auth::id(),
-            'restaurant_id' => $request->restaurant_id,
-            'review' => $request->review,
-            'rating' => $request->rating,
+        $review= new Review();
+        $review->restaurant_name=$request->restaurant_name;
+        $review->review=$request->review;
+        $review->rating=$request->rating;
+        $review->created_at=today();
+        $review->updated_at=today();
+        $review->save();
+        return redirect('review')->with('success', 'review created successfully.');
 
-        ]);
 
-        return redirect()->back()->with('success', 'Review submitted successfully!');
     }
 }
