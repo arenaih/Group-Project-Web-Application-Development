@@ -54,11 +54,12 @@ The objective of this project is to:
 3. Time slots for selecting reservation times.
 4. Confirmation page with booking details, options for cancellations, and payment (if required).
 
-### 4.7 Review and Rating Page
-1. Form for leaving reviews and ratings for food quality, service, ambiance, etc.
-2. Recent reviews and average ratings displayed prominently for user reference.
+### 4.7 Review and Rating Submission page
+1. Form for leaving reviews for food quality, service,comfort, ambiance, etc.
+2. Drop down form to rate the quality from 1 to 5.
 
-
+### 4.8 Review Listings page
+1. List of reviews submitted by users
 
 ## 5.0 Entity Relation Diagram
 ### <img src="erd1.png" width="90%">
